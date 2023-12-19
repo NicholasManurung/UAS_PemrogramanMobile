@@ -70,24 +70,15 @@ class PopularCard extends StatelessWidget {
                         color: Color.fromARGB(255, 0, 0, 0),
                       ),
                     ),
-                    const Text(
-                      'Seafood',
-                      style: TextStyle(
-                        fontSize: 14,
-                        // fontWeight: FontWeight.w600,
-                        color: Color.fromARGB(255, 117, 117, 117),
-                      ),
-                    ),
                     Row(
                       children: [
                         CircleAvatar(
                           radius: 12,
-                          child: SvgPicture.asset(
-                              'assets/svg/icon-share-grey.svg'),
+                          child: SvgPicture.asset('assets/svg/book.svg'),
                           backgroundColor: Colors.transparent,
                         ),
                         const Text(
-                          '30-35 minute',
+                          ' 124',
                           style: TextStyle(
                             fontSize: 14,
                             // fontWeight: FontWeight.w600,
@@ -99,13 +90,12 @@ class PopularCard extends StatelessWidget {
                     Row(
                       children: [
                         CircleAvatar(
-                          radius: 12,
-                          child: SvgPicture.asset(
-                              'assets/svg/icon-share-grey.svg'),
+                          radius: 10,
+                          child: SvgPicture.asset('assets/svg/love.svg'),
                           backgroundColor: Colors.transparent,
                         ),
                         const Text(
-                          'Medium',
+                          ' 41391',
                           style: TextStyle(
                             fontSize: 14,
                             // fontWeight: FontWeight.w600,
@@ -113,7 +103,7 @@ class PopularCard extends StatelessWidget {
                           ),
                         ),
                       ],
-                    ),   
+                    ),
                   ],
                 )),
           ),
